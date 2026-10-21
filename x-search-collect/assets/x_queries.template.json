@@ -1,0 +1,8 @@
+{
+  "suffix": " lang:en since:2026-07-20 until:2026-10-20",
+  "cap_per_query": 120,
+  "queries": [
+    {"id": "q01", "group": "theme_1", "q": "\"exact phrase\" OR \"another phrase\" (keywordA OR keywordB)"},
+    {"id": "q02", "group": "theme_2", "q": "(word1 OR word2) (\"product name\" OR brand)"}
+  ]
+}

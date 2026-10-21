@@ -1,0 +1,11 @@
+{
+  "_comment": "Lower-case substring matching. A post passes the filter if any term of any group occurs. Posts from focus_subs pass as-is; posts from other subreddits must also contain one of context_terms (topic guard). core_groups = groups counted in the core_groups relevance score (generic/affect groups go in secondary_groups).",
+  "focus_subs": ["SubredditA", "SubredditB"],
+  "context_terms": ["topic word 1", "topic word 2"],
+  "secondary_groups": ["affect"],
+  "groups": {
+    "theme_1": ["phrase one", "phrase two"],
+    "theme_2": ["phrase three"],
+    "affect": ["frustrating", "exhausting", "bored"]
+  }
+}
